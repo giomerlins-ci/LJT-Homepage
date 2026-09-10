@@ -11,35 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, Hong Kong University of Science and Technology, 2024 (expected 2028)
+* B.Eng. in Computer Science and Engineering, Shanghai Jiao Tong University, 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* February 2025 – Present: Research Intern
+  * MINIMAX
+  * Research focus: LLM Reasoning, Reinforcement Learning, data synthesis
+  * Supervisor: N/A (MINIMAX)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2024 – September 2024: Research Intern
+  * Tencent WXG
+  * Research focus: VLM Chart Understanding, Vision-Language Models
+  * Supervisor: Zifei Shan
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* June 2023 – December 2023: Research Intern
+  * Shanghai AI Lab
+  * Research focus: LLM Truthfulness, Interpretability
+  * Supervisor: Prof. Yu Cheng
 
 Publications
 ======
@@ -59,6 +49,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for EMNLP 2025, NeurIPS 2025, ICML 2025, ICLR 2025
