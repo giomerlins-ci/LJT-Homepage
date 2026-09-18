@@ -3,30 +3,14 @@ layout: archives
 title: "Publications"
 permalink: /publications/
 author_profile: true
+collection: publications
 ---
 
+{% if site.author.google-scholar %}
+  <div class="wordcloud">
+    <i class="ai ai-google-scholar"></i>
+    <a href="{{ site.author.google-scholar }}">Google Scholar</a>
+  </div>
+{% endif %}
+
 {% include base_path %}
-
-<div class="search-article" ></div>
-
-{% for category in site.publications %}
-  <p>{{ category[0] }}</p>
-  <ul>
-  {% for post in category[1] %}
-    {% if post.header.teaser %}
-      {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-    {% else %}
-      {% assign teaser = site.teaser %}
-    {% endif %}
-
-    {% if post.id %}
-      {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-    {% else %}
-      {% assign title = post.title %}
-    {% endif %}
-
-    <li class="" itemscope itemtype="">{{ title }}</li>
-
-  {% endfor %}
-  </ul>
-{% endfor %}
