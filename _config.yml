@@ -23,6 +23,15 @@ logo:
 # Search
 search: true
 
+# Collections
+collections:
+  publications:
+    output: true
+  talks:
+    output: true
+  teaching:
+    output: true
+
 # Analytics
 analytics:
   provider: ""
