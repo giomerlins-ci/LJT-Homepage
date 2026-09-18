@@ -14,13 +14,11 @@ url: "https://giomerlins-ci.github.io"
 baseurl: "/LJT-Homepage"
 repository: "giomerlins-ci/LJT-Homepage"
 
-# Teaser teaser
-teaser: #/assets/images/vanilla-banner.png
+# Teaser
+teaser:
 
-# Logo of the website
-logo: # /assets/images/avatar.png
-
-)
+# Logo
+logo:
 
 # Search
 search: true
@@ -83,7 +81,7 @@ defaults:
       read_time: true
       comments: true
   - scope:
-      path: "" 
+      path: ""
       type: "publications"
     values:
       layout: "single"
